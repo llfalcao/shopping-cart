@@ -11,9 +11,10 @@ export const Container = styled.div`
 
 export const EmptyCart = styled.div`
   position: absolute;
-
   text-align: center;
-  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   & p {
     font-size: 1.5rem;
@@ -22,14 +23,14 @@ export const EmptyCart = styled.div`
 `;
 
 export const BtnReturn = styled.button`
-  background: #6057a9;
+  background: #776dc5;
   color: #fff;
   font-weight: 500;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   margin-top: 2rem;
 
-  &:hover {
-    background: #776dc5;
+  &:active {
+    background: #6057a9;
   }
 `;

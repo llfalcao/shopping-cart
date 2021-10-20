@@ -24,12 +24,12 @@ export const LinkCart = styled(Link)`
   display: flex;
   align-items: center;
   margin: 0 2rem;
-  background: #6057a9;
+  background: #776dc5;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
 
-  &:hover {
-    background: #776dc5;
+  &:active {
+    background: #6057a9;
   }
 
   & img {
