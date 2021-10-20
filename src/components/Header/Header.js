@@ -4,10 +4,10 @@ import * as S from './styles';
 const Header = () => {
   return (
     <S.Header>
-      <p>Company Name</p>
+      <S.Title>Evergreen</S.Title>
       <S.LinkCart to="/checkout">
         <img src={cart} alt="Cart Icon" />
-        My Cart
+        <span>My Cart</span>
       </S.LinkCart>
     </S.Header>
   );
