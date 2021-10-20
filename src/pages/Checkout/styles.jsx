@@ -5,8 +5,14 @@ export const Container = styled.div`
   margin: 2rem;
   padding: 2rem;
   border-radius: 0.25rem;
-  background: #000000dd;
+  background: #e5e5e5;
+
   min-height: calc(100vh - 10rem);
+
+  & h1 {
+    color: #111;
+    font-weight: 400;
+  }
 `;
 
 export const EmptyCart = styled.div`

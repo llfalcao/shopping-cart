@@ -13,7 +13,7 @@ const Header = ({ items }) => {
           <img src={cart} alt="Cart Icon" />
           {items > 0 ? <S.CartItemCounter>{items}</S.CartItemCounter> : null}
         </S.IconContainer>
-        .<span>My Cart</span>
+        <span>My Cart</span>
       </S.LinkCart>
     </S.Header>
   );
