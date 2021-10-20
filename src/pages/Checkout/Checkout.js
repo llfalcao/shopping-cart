@@ -1,20 +1,32 @@
+import { Link } from 'react-router-dom';
 import CartItem from '../../components/CartItem/CartItem';
-import products from '../../assets/data/products';
 import * as S from './styles';
 
-const Checkout = () => {
+const Checkout = ({ cart, increment, decrement, handleChange, remove }) => {
   return (
     <S.Container>
       {/* Shopping Cart Container */}
-      <h1>Checkout</h1>
+      <h1>Shopping Cart</h1>
       <div>
-        {products.map((product) => (
-          <CartItem
-            image={product.image}
-            name={product.name}
-            price={product.price}
-          />
-        ))}
+        {cart.length > 0 ? (
+          cart.map((product) => (
+            <CartItem
+              key={product.id}
+              product={product}
+              increment={increment}
+              decrement={decrement}
+              handleChange={handleChange}
+              remove={remove}
+            />
+          ))
+        ) : (
+          <S.EmptyCart>
+            <p>Your cart is empty</p>
+            <Link to="/shopping-cart">
+              <S.BtnReturn>Go back</S.BtnReturn>
+            </Link>
+          </S.EmptyCart>
+        )}
       </div>
     </S.Container>
   );

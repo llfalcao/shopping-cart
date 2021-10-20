@@ -50,7 +50,8 @@ export const CountContainer = styled.div`
 `;
 
 export const Price = styled.span`
-  margin: 0 2rem;
+  min-width: 15%;
+  text-align: center;
 `;
 
 export const Decrement = styled.button`
