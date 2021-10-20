@@ -71,7 +71,7 @@ const Routes = () => {
 
   return (
     <BrowserRouter>
-      <Header />
+      <Header items={cart.length} />
       <Switch>
         <Route
           exact

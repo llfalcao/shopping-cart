@@ -32,12 +32,32 @@ export const LinkCart = styled(Link)`
     background: #6057a9;
   }
 
-  & img {
-    margin-right: 0.7rem;
-  }
-
   & span {
     font-weight: 600;
     padding-bottom: 2px;
   }
+`;
+
+export const IconContainer = styled.div`
+  position: relative;
+
+  & img {
+    margin-right: 0.7rem;
+  }
+`;
+
+export const CartItemCounter = styled.div`
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: -0.1rem;
+  right: 0.5rem;
+  border-radius: 100%;
+  background: purple;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  font-weight: 600;
 `;
