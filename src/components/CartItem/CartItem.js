@@ -17,7 +17,7 @@ const CartItem = ({ image, name, price }) => {
         <S.Increment>+</S.Increment>
       </S.CountContainer>
 
-      <S.Price>{price}</S.Price>
+      <S.Price>$ {price}</S.Price>
 
       <S.Remove>X</S.Remove>
     </S.CartItem>

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Header = styled.header`
-  background: #6057a9;
+  /* background: #6057a9; */
   color: #fff;
   text-shadow: 0 2px 2px #18261855;
   display: flex;
@@ -24,12 +24,12 @@ export const LinkCart = styled(Link)`
   display: flex;
   align-items: center;
   margin: 0 2rem;
-  background: #182618c4;
+  background: #6057a9;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
 
   &:hover {
-    background: #182618;
+    background: #776dc5;
   }
 
   & img {

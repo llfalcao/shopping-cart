@@ -1,4 +1,4 @@
-import logo from '../carina.png';
+import logo from '../images/carina.png';
 
 const products = [
   {

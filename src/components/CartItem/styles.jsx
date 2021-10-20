@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CartItem = styled.div`
-  background: #000;
+  background: #625c9190;
   display: flex;
   align-items: center;
   padding: 1rem;
@@ -45,7 +45,7 @@ export const ProductInfo = styled.div`
 
 export const CountContainer = styled.div`
   & button {
-    background: #51ba7d;
+    background: #ccc;
   }
 `;
 
@@ -64,4 +64,6 @@ export const Increment = styled.button`
 export const Remove = styled.button`
   background: #c33939;
   margin-right: 1rem;
+  color: #fff;
+  font-weight: 600;
 `;
