@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Header = styled.header`
-  background: #3bba7d;
+  background: #6057a9;
   color: #fff;
   text-shadow: 0 2px 2px #18261855;
   display: flex;
