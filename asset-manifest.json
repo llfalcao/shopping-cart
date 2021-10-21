@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.2d927d35.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.0af79a2a.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.0af79a2a.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.b6a2e420.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.b6a2e420.js.map",
+    "static/js/2.24fec552.chunk.js": "/shopping-cart/static/js/2.24fec552.chunk.js",
+    "static/js/2.24fec552.chunk.js.map": "/shopping-cart/static/js/2.24fec552.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.2d927d35.chunk.css.map": "/shopping-cart/static/css/main.2d927d35.chunk.css.map",
+    "static/js/2.24fec552.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.24fec552.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/shopping-cart/static/media/billy-huynh-space.4ee76d78.jpg",
+    "static/media/book.d3ad8b8a.svg": "/shopping-cart/static/media/book.d3ad8b8a.svg",
+    "static/media/carina.1af08022.png": "/shopping-cart/static/media/carina.1af08022.png",
+    "static/media/home.da3f87f5.svg": "/shopping-cart/static/media/home.da3f87f5.svg",
+    "static/media/pro.ce96bc3f.svg": "/shopping-cart/static/media/pro.ce96bc3f.svg",
+    "static/media/shopping-cart.f6d3d560.svg": "/shopping-cart/static/media/shopping-cart.f6d3d560.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6a2e420.js",
+    "static/js/2.24fec552.chunk.js",
+    "static/css/main.2d927d35.chunk.css",
+    "static/js/main.0af79a2a.chunk.js"
+  ]
+}
