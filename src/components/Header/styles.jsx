@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Header = styled.header`
-  /* background: #6057a9; */
   color: #fff;
   text-shadow: 0 2px 2px #18261855;
   display: flex;
@@ -53,8 +52,8 @@ export const CartItemCounter = styled.div`
   top: -0.1rem;
   right: 0.5rem;
   border-radius: 100%;
-  background: purple;
-  color: #fff;
+  background: #fff;
+  color: #000;
   display: flex;
   justify-content: center;
   align-items: center;

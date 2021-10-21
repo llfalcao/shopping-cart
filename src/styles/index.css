@@ -6,9 +6,9 @@
 
 body {
   min-height: 100vh;
-  background: url('./assets/images/billy-huynh-space.jpg') no-repeat center /
+  background: url('../assets/images/billy-huynh-space.jpg') no-repeat center /
       cover,
-    linear-gradient(to bottom, #000000ff, transparent 40%);
+    linear-gradient(to bottom, #000000ff, transparent 80%);
   background-blend-mode: overlay;
   color: #eee;
   font-size: 16px;

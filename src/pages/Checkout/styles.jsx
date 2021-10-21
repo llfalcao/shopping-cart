@@ -3,15 +3,15 @@ import styled from 'styled-components';
 export const Container = styled.div`
   position: relative;
   margin: 2rem;
-  padding: 2rem;
+  padding: 1rem 1.8rem;
   border-radius: 0.25rem;
-  background: #e5e5e5;
-
+  background: #e5e5e5e5;
   min-height: calc(100vh - 10rem);
 
   & h1 {
     color: #111;
     font-weight: 400;
+    font-size: 5vmin;
   }
 `;
 
@@ -23,8 +23,9 @@ export const EmptyCart = styled.div`
   transform: translate(-50%, -50%);
 
   & p {
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 4vmin;
+    font-weight: 500;
+    color: #111;
   }
 `;
 
