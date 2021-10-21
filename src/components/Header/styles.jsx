@@ -11,12 +11,23 @@ export const Header = styled.header`
   height: 75px;
 `;
 
-export const Title = styled.span`
+export const Company = styled.div`
+  display: flex;
+  align-items: center;
   margin: 0 2rem;
+`;
+
+export const Logo = styled.img`
+  width: 30px;
+  filter: drop-shadow(0 0 1px #fff);
+  margin-right: 1rem;
+`;
+
+export const Title = styled.span`
   font-weight: 500;
   font-size: 1.5rem;
-  padding-bottom: 5px;
   text-align: center;
+  padding-bottom: 4px;
 `;
 
 export const LinkCart = styled(Link)`
@@ -32,7 +43,7 @@ export const LinkCart = styled(Link)`
   }
 
   & span {
-    font-weight: 600;
+    font-weight: 500;
     padding-bottom: 2px;
   }
 `;
