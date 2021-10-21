@@ -9,6 +9,7 @@ const products = [
     image: logo,
     icon: student,
     name: 'CarinaOS Student',
+    fullName: 'CarinaOS Student Edition',
     price: '19.99',
   },
   {
@@ -16,6 +17,7 @@ const products = [
     image: logo,
     icon: home,
     name: 'CarinaOS Home',
+    fullName: 'CarinaOS Home Edition',
     price: 49.99,
   },
   {
@@ -23,6 +25,7 @@ const products = [
     image: logo,
     icon: pro,
     name: 'CarinaOS Pro',
+    fullName: 'CarinaOS Professional Edition',
     price: 99.99,
   },
 ];

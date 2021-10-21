@@ -1,18 +1,18 @@
 import * as S from './styles';
 
 const CartItem = ({ product, ...props }) => {
-  const { id, image, name, price, quantity } = product;
+  const { id, image, fullName, price, quantity } = product;
   const { increment, decrement, handleChange, remove } = props;
   const subtotal = (price * quantity).toFixed(2);
 
   return (
     <S.CartItem>
       <div>
-        <S.Image src={image} alt={name} />
+        <S.Image src={image} alt={fullName} />
       </div>
 
       <S.ProductInfo>
-        <p>{name}</p>
+        <p>{fullName}</p>
       </S.ProductInfo>
 
       <S.CountContainer>

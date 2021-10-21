@@ -8,12 +8,12 @@
   align-items: center;
 }
 
-h1 {
+.app h1 {
   font-weight: 400;
   font-size: 7vmin;
 }
 
-h2 {
+.app h2 {
   font-weight: 400;
   margin-bottom: 10vh;
   font-size: 3vmin;

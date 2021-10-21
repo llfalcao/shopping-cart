@@ -45,6 +45,7 @@ export const ProductInfo = styled.div`
 `;
 
 export const CountContainer = styled.div`
+  display: inline-flex;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
 
   & button {
