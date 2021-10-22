@@ -4,10 +4,12 @@ export const CartItem = styled.div`
   background: #625c9152;
   color: #000000;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 0.25rem;
+  flex-wrap: wrap;
 
   & input,
   button {

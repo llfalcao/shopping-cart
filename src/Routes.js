@@ -9,7 +9,6 @@ const Routes = () => {
 
   const addToCart = (e, products) => {
     const id = e.target.closest('.product').classList[0].substring(1);
-    console.log(id);
     const newCart = [...cart];
     const index = newCart.findIndex((item) => item.id === id);
     if (index > -1) {
