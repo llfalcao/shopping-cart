@@ -9,6 +9,16 @@ export const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   height: 75px;
+
+  @media (max-width: 415px) {
+    height: max-content;
+  }
+`;
+
+export const LinkCompany = styled(Link)`
+  @media (max-width: 415px) {
+    margin: 1rem auto;
+  }
 `;
 
 export const Company = styled.div`
@@ -45,6 +55,10 @@ export const LinkCart = styled(Link)`
   & span {
     font-weight: 500;
     padding-bottom: 2px;
+  }
+
+  @media (max-width: 415px) {
+    margin: 0 auto 1rem;
   }
 `;
 
